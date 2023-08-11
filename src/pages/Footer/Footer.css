@@ -1,0 +1,59 @@
+/* Add this CSS to your stylesheet */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid white;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  button {
+    background-color: black; /* LinkedIn blue */
+    border: 2px solid rgb(249, 21, 181);
+    color: rgb(249, 21, 181);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s, color 1s, transform 0.5s;
+  }
+  
+  button:hover {
+    background-color: rgb(249, 21, 181);
+    color: white;
+    /* Slightly darker LinkedIn blue on hover */
+  }
+  
+  /* Styling for GitHub button */
+  button:nth-child(2) {
+    background-color:rgb(249, 21, 181);
+    color: white;
+  }
+  
+  button:nth-child(2):hover {
+    background-color:rgb(249, 21, 181);
+    color: white;
+  }
+  
+  /* Copyright text */
+  p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  

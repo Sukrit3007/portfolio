@@ -1,0 +1,49 @@
+/* About.css */
+.about {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.about .bg-gif img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  object-fit: cover; /* Ensure the GIF covers the entire container */
+}
+
+.about h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 5rem;
+  margin: 0;
+  padding: 20px;
+  text-align: left;
+  color: black;
+  border-radius: 10px;
+  text-align: left;
+}
+
+/* Responsive font sizes using vw units and media queries */
+@media (max-width: 768px) {
+  .about h1 {
+    font-size: 3rem; /* Adjust this value for smaller screens */
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .about h1 {
+    font-size: 2rem; /* Adjust this value for even smaller screens */
+    text-align: center;
+  }
+}

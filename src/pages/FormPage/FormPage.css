@@ -1,0 +1,62 @@
+/* External CSS for styling the form page */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  border-top: 2px solid white;
+}
+
+.form-container {
+  background-color: rgb(0, 0, 0);
+  padding: 40px; /* Increased padding for more spacing */
+  border-radius: 8px solid rgb(249, 21, 181);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 600px; /* Increased max-width for larger screens */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px; /* Increased margin for better spacing */
+  font-size: 24px; /* Increased font size for the heading */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px; /* Increased margin for better spacing */
+  font-size: 16px; /* Increased font size for labels */
+  color: white;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 15px; /* Increased padding for input fields */
+  margin-bottom: 15px; /* Increased margin for better spacing */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 16px; /* Increased font size for input fields */
+}
+
+button[type="submit"] {
+  background-color: black;
+  color: rgb(249, 21, 181);
+  border: 2px solid rgb(249, 21, 181);
+  padding: 15px 20px; /* Increased padding for the button */
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px; /* Increased font size for the button */
+  transition: background-color 1s, color 1s, transform 0.5s;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(249, 21, 181);
+  color: white;
+}

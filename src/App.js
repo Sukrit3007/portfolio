@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import HorizontalScrollingText from "./components/HorizontalScrollingText";
+import About from "./pages/About/About";
+import Footer from "./pages/Footer/Footer";
+import FormPage from "./pages/FormPage/FormPage";
+import Main from "./pages/Main/Main";
+import Work from "./pages/Work/Work";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" >
+      <HorizontalScrollingText text ={'WELCOME TO MY PORTFOLIO WEBSITE, WHERE I SHOWCASE MY JOURNEY IN CRAFTING DIGITAL EXPERIENCES.'} />
+      <Main/>
+      <About/>
+      <Work/>
+      <FormPage/>
+      <Footer/>
+      <HorizontalScrollingText text={'THANK YOU FOR VISITING MY PORTFOLIO WEBSITE. I HOPE YOU ENJOYED EXPLORING MY WORK AND INSIGHTS.'} />
     </div>
   );
 }
 
 export default App;
+ 
